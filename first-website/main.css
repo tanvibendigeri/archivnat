@@ -1,0 +1,8 @@
+.content-box {
+	background-color:lightblue;
+	width:300 px;
+	height:300 px;
+	padding:50px;
+	border:20px solid;
+	margin:20px;
+}
