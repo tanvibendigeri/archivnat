@@ -1,3 +1,23 @@
 * {
 	box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lower {
+  margin-top: 200px;
+}
+
+#text {
+	font-family: cursive;
+	font-size: 30px;
+}
+
+#copy {
+  font-family: serif;
+  font-size: 18px;
+}
