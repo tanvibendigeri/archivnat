@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: burlywood;
+}
+
+.lower {
+  margin-top: 200px;
+}
+
+.spin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spin-image {
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
