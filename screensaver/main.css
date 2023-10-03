@@ -18,6 +18,7 @@ body {
 
 .spin-image {
     animation: spin 4s linear infinite;
+    margin-top: 10px;
 }
 
 @keyframes spin {
