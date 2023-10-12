@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(7, 22, 48);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.moon-container {
+    max-width: 375px;
+    max-height: 375px;
+    overflow: hidden;
+}
+
+#moon-image {
+    width: 100%;
+    height: auto;
+}
