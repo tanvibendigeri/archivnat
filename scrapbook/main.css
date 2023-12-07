@@ -5,8 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    body
-    cursor: url('orangesmiley.png'),auto;
+    cursor: url("cursor.cur"), auto;
 }
 
 header {
@@ -35,6 +34,14 @@ nav a {
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
+}
+
+.custom-cursor {
+  cursor: url("cursor.cur"), auto;
+}
+
+a {
+  cursor: url("cursor.cur"), auto;
 }
 
 #name {
@@ -73,6 +80,8 @@ nav a {
     font-style: italic;
     font-size: 20px;
     bottom:213px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 #header1{
@@ -109,20 +118,42 @@ nav a {
     font-style: italic;
     font-size: 25px;
     bottom: 40px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
-#description1{
+#descriptionright{
     position: relative;
     font-family: "ff-providence-web-pro", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 25px;
-    margin-right: 100px;
-    margin-left: 100px;
+    bottom: 500px;
+    margin-right: 50px;
+    margin-left: 60%;
 }
 
+#descriptionleft{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    bottom: 500px;
+    margin-right: 60%;
+    margin-left: 50px;
+}
+
+#description1right{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    margin-right: 300px;
+    margin-left: 300px;
+    width: 50%;
+}
 
 .gallery {
     display: flex;
@@ -130,7 +161,29 @@ nav a {
     justify-content: space-around;
     margin: 20px;
     margin-top: 100px;
+    overflow: hidden;
 }
+
+.galleryleft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    width: 50%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.galleryright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+}
+
 
 .gallery-item {
     width: 300px;
@@ -138,7 +191,23 @@ nav a {
     overflow: hidden;
 }
 
+.gallery-item1 {
+    width: 343.2px;
+    height: 215.6px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item1 img {
     width: 100%;
     height: auto;
     display: block;
