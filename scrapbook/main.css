@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    body
+    cursor: url('orangesmiley.png'),auto;
+}
+
+header {
+    margin-top: 100px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#name {
+    position: relative;
+    margin-top: 200px;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#flower {
+    position: relative;
+    bottom:130px;
+}
+
+#flower1 {
+    position: relative;
+}
+
+#header{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    bottom:200px;
+}
+
+#body{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    bottom:213px;
+}
+
+#header1{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+#body1{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#link{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+
+#description{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    bottom: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#description1{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.gallery-item {
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
