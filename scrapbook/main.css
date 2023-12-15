@@ -37,11 +37,11 @@ nav a {
 }
 
 .custom-cursor {
-  cursor: url("cursor.cur"), auto;
+  cursor: url("cursor2.cur"), auto;
 }
 
 a {
-  cursor: url("cursor.cur"), auto;
+  cursor: url("cursor2.cur"), auto;
 }
 
 #name {
