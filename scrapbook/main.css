@@ -100,6 +100,8 @@ a {
     font-weight: 400;
     font-style: italic;
     font-size: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 #link{
@@ -144,15 +146,41 @@ a {
     margin-left: 50px;
 }
 
-#description1right{
+#descriptionright1{
     position: relative;
     font-family: "ff-providence-web-pro", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 25px;
-    margin-right: 300px;
-    margin-left: 300px;
-    width: 50%;
+    bottom: 850px;
+    margin-right: 50px;
+    margin-left: 60%;
+    margin-bottom: 10px;
+}
+
+#descriptionleft1{
+    position: relative;
+    font-family: "ff-providence-web-pro", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    bottom: 700px;
+    margin-right: 60%;
+    margin-left: 50px;
+}
+
+#singleimage {
+    width: 450px;
+    overflow: hidden;
+    margin-left: 68%;
+    margin-top: 100px;
+}
+
+#singleimage1 {
+    width: 450px;
+    overflow: hidden;
+    bottom: 300px;
+    margin-left: 68%;
 }
 
 .gallery {
